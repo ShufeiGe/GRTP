@@ -1,4 +1,4 @@
-# GRTP V.0.2022.
+# GRTP V.0.0.
 
 
 The package GRTP implements the Bayesian nonparametric methods described in Ge et al., Generalized Random Tessellation Processes. This software constructs a generalized random tessellation processes (forest) for posterior prediction of regression data based on real-valued predictors. For the categorical tasks, we refer readers to the other software tess19 available at https://github.com/ShufeiGe/Tess19. For regression tasks, we apply a two-stage
@@ -10,7 +10,7 @@ inference scheme to infer the model to improve computational efficiency, the tre
 - **demo.R** A simple demonstration to implement the proposed methods.
 - **code**  A code folder contains the functions of the implemented methods.
 - **code/generative_functins**  The implementation of the generative process of the random tessellation process for the regression models.
-- **code/tess22_frame_tau.R**   Model inference framework.
+- **code/tess_frame_tau.R**   Model inference framework.
 - **code/parameter_inference_l.R**   Parameter updates for linear cases.
 - **code/parameter_inference_c.R**   Parameter updates for constant cases.
 - **data/01**   Data used in the demonstration (demo.R).
@@ -22,7 +22,7 @@ If you use GRTP in your research, please cite the following publication:
 S. Ge, S. Wang, L. Wang, Y.W. Teh, L.T. Elliott. Generalized Random Tessellation Processes.
 
 ## LICENSES
-GRTP v1.0. Copyright (c) 2022. Shufei Ge and Lloyd T. Elliott.
+GRTP v1.0. Copyright (c) 2024. Shufei Ge and Lloyd T. Elliott.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
