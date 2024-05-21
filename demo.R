@@ -41,7 +41,7 @@ n.iter <- 5000
 burnin.iter <- 1000
 
 
-source(paste0(pwd.code,"/tess22_frame_tau.R"))
+source(paste0(pwd.code,"/tess_frame_tau.R"))
  
 (out.f2 <- paste0("./result/Model",mode.type,"cut",cut.type,"D",data.fd,data.id,"_summary.Rdata"))
 (ggname = paste0(pwd.data,data.fd,"/Z/",data.id,".txt"))
