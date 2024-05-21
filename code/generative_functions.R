@@ -214,7 +214,7 @@ Generative_Process <- function(partition,V.all,cts_z,tau,group.level,group.len,s
   result <- c(0,0,0)
   Cut <- list()
   cut.idx <- 0
-  skip.all <- 0  #only set it to 1 when  (1)  cond1 is  not true OR (2) cost exceeds the budget.
+  skip.all <- 0  #only set it to 1 when  (1)  cond1 is not true OR (2) cost exceeds the budget.
   new_par_t <- list(beta_t=NULL,logPt_delta=NULL)
   
   
